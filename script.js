@@ -139,7 +139,7 @@ if (content.firstElementChild == null) {
     let div = document.createElement('div');
     div.className = 'cont';
     div.id = key;
-    div.style.width = "200px";
+    div.style.width = "275px";
     div.innerHTML = value;
     content.appendChild(div);
     let button1 = div.firstElementChild.nextElementSibling.nextElementSibling;
