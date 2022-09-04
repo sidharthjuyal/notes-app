@@ -164,6 +164,18 @@ if(content.firstElementChild == null) {
   }
 }
 
+// footer
+
+var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+if(height > 1000){
+  document.getElementById("foot").style.backgroundColor = "forestgreen";
+  document.getElementById("foot").style.color = "white";
+}
   
 
 
