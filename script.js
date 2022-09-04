@@ -172,7 +172,7 @@ var body = document.body,
 var height = Math.max( body.scrollHeight, body.offsetHeight, 
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
 
-if(height > 1000){
+if(height > 500){
   document.getElementById("foot").style.backgroundColor = "forestgreen";
   document.getElementById("foot").style.color = "white";
 }
